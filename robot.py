@@ -35,7 +35,6 @@ class Robot(Human):
     def perform_task(self, task):
         print(f"The {self.model} robot is performing the task: {task}.")
 
-# Example usage
 my_ai = AI("Athena", 5, "Virtual Assistant", 9.8)
 print(my_ai.name)
 print(my_ai.age)
