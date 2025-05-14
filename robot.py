@@ -33,17 +33,17 @@ class Robot(Human):
         self.model = model
 
     def perform_task(self, task):
-        print(f"The {self.model} robot is performing the task: {task}.")
+        print(f"The {self.model} robot is performing the task: {self.task}.")
 
-my_ai = AI("Athena", 5, "Virtual Assistant", 9.8)
-print(my_ai.name)
-print(my_ai.age)
-print(my_ai.occupation)
-print(my_ai.intelligence_level)
-my_ai.think()
-my_ai.communicate()
-my_ai.learn()
-my_ai.analyze()
+# my_ai = AI("Athena", 5, "Virtual Assistant", 9.8)
+# print(my_ai.name)
+# print(my_ai.age)
+# print(my_ai.occupation)
+# print(my_ai.intelligence_level)
+# my_ai.think()
+# my_ai.communicate()
+# my_ai.learn()
+# my_ai.analyze()
 
 robot1 = Robot("RoboX", 3, "Assistant", "RoboX-1000")
 robot1.perform_task("cleaning the house")
